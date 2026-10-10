@@ -1,0 +1,2 @@
+method,accuracy,macro_f1
+BERT_base_uncased,0.9835,0.9647

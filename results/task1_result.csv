@@ -1,0 +1,3 @@
+method,accuracy,macro_f1
+Binary_BoW,0.9905,0.9764
+Word_Frequency_BoW,0.9896,0.9742
