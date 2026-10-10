@@ -14,13 +14,7 @@ nlp_hw1/
 ├── run_task3.py           # Task3：BERT‑base‑uncased微调文本分类 
 ├── data/ 
 │   ├── nyt.csv            # 原始 NYT 数据集 
-│   ├── ag.csv             # 原始 AG News 数据集
-│   ├── glove/ 
-│   │   └── glove.6B.100d.txt  # GloVe 预训练向量 
-│   ├── nyt_train.csv      # 预处理后训练集，运行data_preprocess.py生成 
-│   ├── nyt_val.csv        # 预处理后验证集 
-│   ├── nyt_test.csv       # 预处理后测试集 
-│   └── ag_processed.csv   # 预处理后 AG News 数据集 
+│   └── ag.csv             # 原始 AG News 数据集
 ├── results/ 
 │   ├── task1_result.csv   # Task1 输出实验结果 
 │   ├── task2_result.csv   # Task2 输出实验结果 
@@ -33,6 +27,11 @@ Python版本建议：3.10 ~ 3.12
 ```bash
 pip install -r requirements.txt
 ```
+
+## 数据集准备
+Task2 GloVe实验需要手动下载 `glove.6B.zip`，解压后取出其中 `glove.6B.100d.txt`，放到项目路径 `./data/glove/`。
+> GloVe官方下载地址：http://nlp.stanford.edu/data/glove.6B.zip
+
 
 ## 运行步骤
 
